@@ -27,8 +27,9 @@ pytest
 
 ## API overview
 
-Method	Path	    What it does
-GET     /health	    {"status": "ok"}
-GET     /items	    list items
-POST     /items	    create item (JSON body)
-GET     /items/{id}	get one item by index
+| Method | Path | What it does |
+|--------|------|----------------|
+| GET | `/health` | `{"status": "ok"}` |
+| GET | `/items` | list items |
+| POST | `/items` | create item (JSON body) |
+| GET | `/items/{id}` | get one item by index |
